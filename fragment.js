@@ -1,4 +1,4 @@
-class MiComponente extends HTMLElement{
+class MiComponenteA extends HTMLElement{
     constructor(){
         super();
         this.innerHTML = `
@@ -6,4 +6,4 @@ class MiComponente extends HTMLElement{
         `;
     }
 }
-customElements.define("team-a", MiComponente);
+customElements.define("team-a", MiComponenteA);
